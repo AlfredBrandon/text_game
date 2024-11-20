@@ -1,0 +1,516 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\EncounterEngine\\EncounterEngine.csproj": {}
+  },
+  "projects": {
+    "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\DMDomain\\DMDomain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\DMDomain\\DMDomain.csproj",
+        "projectName": "DMDomain",
+        "projectPath": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\DMDomain\\DMDomain.csproj",
+        "packagesPath": "C:\\Users\\AlfredB\\.nuget\\packages\\",
+        "outputPath": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\DMDomain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AlfredB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nexus.aex.systems/repository/nuget-aex/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\Repository\\Repository.csproj": {
+                "projectPath": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\Repository\\Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\EncounterEngine\\EncounterEngine.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\EncounterEngine\\EncounterEngine.csproj",
+        "projectName": "EncounterEngine",
+        "projectPath": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\EncounterEngine\\EncounterEngine.csproj",
+        "packagesPath": "C:\\Users\\AlfredB\\.nuget\\packages\\",
+        "outputPath": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\EncounterEngine\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AlfredB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nexus.aex.systems/repository/nuget-aex/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\DMDomain\\DMDomain.csproj": {
+                "projectPath": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\DMDomain\\DMDomain.csproj"
+              },
+              "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\Models\\Models.csproj": {
+                "projectPath": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\Models\\Models.csproj"
+              },
+              "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\MonsterDomain\\MonsterDomain.csproj": {
+                "projectPath": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\MonsterDomain\\MonsterDomain.csproj"
+              },
+              "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\PlayerDomain\\PlayerDomain.csproj": {
+                "projectPath": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\PlayerDomain\\PlayerDomain.csproj"
+              },
+              "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\Shared\\Shared.csproj": {
+                "projectPath": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\Shared\\Shared.csproj"
+              },
+              "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\Text_Game\\Text_Game.csproj": {
+                "projectPath": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\Text_Game\\Text_Game.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\Models\\Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\Models\\Models.csproj",
+        "projectName": "Models",
+        "projectPath": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\AlfredB\\.nuget\\packages\\",
+        "outputPath": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AlfredB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nexus.aex.systems/repository/nuget-aex/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\DMDomain\\DMDomain.csproj": {
+                "projectPath": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\DMDomain\\DMDomain.csproj"
+              },
+              "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\MonsterDomain\\MonsterDomain.csproj": {
+                "projectPath": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\MonsterDomain\\MonsterDomain.csproj"
+              },
+              "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\PlayerDomain\\PlayerDomain.csproj": {
+                "projectPath": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\PlayerDomain\\PlayerDomain.csproj"
+              },
+              "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\Repository\\Repository.csproj": {
+                "projectPath": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\Repository\\Repository.csproj"
+              },
+              "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\Text_Game\\Text_Game.csproj": {
+                "projectPath": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\Text_Game\\Text_Game.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\MonsterDomain\\MonsterDomain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\MonsterDomain\\MonsterDomain.csproj",
+        "projectName": "MonsterDomain",
+        "projectPath": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\MonsterDomain\\MonsterDomain.csproj",
+        "packagesPath": "C:\\Users\\AlfredB\\.nuget\\packages\\",
+        "outputPath": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\MonsterDomain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AlfredB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nexus.aex.systems/repository/nuget-aex/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\Repository\\Repository.csproj": {
+                "projectPath": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\Repository\\Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\PlayerDomain\\PlayerDomain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\PlayerDomain\\PlayerDomain.csproj",
+        "projectName": "PlayerDomain",
+        "projectPath": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\PlayerDomain\\PlayerDomain.csproj",
+        "packagesPath": "C:\\Users\\AlfredB\\.nuget\\packages\\",
+        "outputPath": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\PlayerDomain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AlfredB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nexus.aex.systems/repository/nuget-aex/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\Repository\\Repository.csproj": {
+                "projectPath": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\Repository\\Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\Repository\\Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\Repository\\Repository.csproj",
+        "projectName": "Repository",
+        "projectPath": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\AlfredB\\.nuget\\packages\\",
+        "outputPath": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AlfredB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nexus.aex.systems/repository/nuget-aex/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\Shared\\Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\Shared\\Shared.csproj",
+        "projectName": "Shared",
+        "projectPath": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\Shared\\Shared.csproj",
+        "packagesPath": "C:\\Users\\AlfredB\\.nuget\\packages\\",
+        "outputPath": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AlfredB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nexus.aex.systems/repository/nuget-aex/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\Text_Game\\Text_Game.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\Text_Game\\Text_Game.csproj",
+        "projectName": "Text_Game",
+        "projectPath": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\Text_Game\\Text_Game.csproj",
+        "packagesPath": "C:\\Users\\AlfredB\\.nuget\\packages\\",
+        "outputPath": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\Text_Game\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AlfredB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nexus.aex.systems/repository/nuget-aex/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\DMDomain\\DMDomain.csproj": {
+                "projectPath": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\DMDomain\\DMDomain.csproj"
+              },
+              "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\MonsterDomain\\MonsterDomain.csproj": {
+                "projectPath": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\MonsterDomain\\MonsterDomain.csproj"
+              },
+              "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\PlayerDomain\\PlayerDomain.csproj": {
+                "projectPath": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\PlayerDomain\\PlayerDomain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

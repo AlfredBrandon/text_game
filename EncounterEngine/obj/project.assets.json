@@ -1,0 +1,226 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "DMDomain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Repository": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DMDomain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DMDomain.dll": {}
+        }
+      },
+      "Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "DMDomain": "1.0.0",
+          "MonsterDomain": "1.0.0",
+          "PlayerDomain": "1.0.0",
+          "Repository": "1.0.0",
+          "Text_Game": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Models.dll": {}
+        }
+      },
+      "MonsterDomain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Repository": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MonsterDomain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MonsterDomain.dll": {}
+        }
+      },
+      "PlayerDomain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Repository": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PlayerDomain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PlayerDomain.dll": {}
+        }
+      },
+      "Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Repository.dll": {}
+        }
+      },
+      "Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shared.dll": {}
+        }
+      },
+      "Text_Game/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "DMDomain": "1.0.0",
+          "MonsterDomain": "1.0.0",
+          "PlayerDomain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Text_Game.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Text_Game.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "DMDomain/1.0.0": {
+      "type": "project",
+      "path": "../DMDomain/DMDomain.csproj",
+      "msbuildProject": "../DMDomain/DMDomain.csproj"
+    },
+    "Models/1.0.0": {
+      "type": "project",
+      "path": "../Models/Models.csproj",
+      "msbuildProject": "../Models/Models.csproj"
+    },
+    "MonsterDomain/1.0.0": {
+      "type": "project",
+      "path": "../MonsterDomain/MonsterDomain.csproj",
+      "msbuildProject": "../MonsterDomain/MonsterDomain.csproj"
+    },
+    "PlayerDomain/1.0.0": {
+      "type": "project",
+      "path": "../PlayerDomain/PlayerDomain.csproj",
+      "msbuildProject": "../PlayerDomain/PlayerDomain.csproj"
+    },
+    "Repository/1.0.0": {
+      "type": "project",
+      "path": "../Repository/Repository.csproj",
+      "msbuildProject": "../Repository/Repository.csproj"
+    },
+    "Shared/1.0.0": {
+      "type": "project",
+      "path": "../Shared/Shared.csproj",
+      "msbuildProject": "../Shared/Shared.csproj"
+    },
+    "Text_Game/1.0.0": {
+      "type": "project",
+      "path": "../Text_Game/Text_Game.csproj",
+      "msbuildProject": "../Text_Game/Text_Game.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "DMDomain >= 1.0.0",
+      "Models >= 1.0.0",
+      "MonsterDomain >= 1.0.0",
+      "PlayerDomain >= 1.0.0",
+      "Shared >= 1.0.0",
+      "Text_Game >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\AlfredB\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\EncounterEngine\\EncounterEngine.csproj",
+      "projectName": "EncounterEngine",
+      "projectPath": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\EncounterEngine\\EncounterEngine.csproj",
+      "packagesPath": "C:\\Users\\AlfredB\\.nuget\\packages\\",
+      "outputPath": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\EncounterEngine\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\AlfredB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nexus.aex.systems/repository/nuget-aex/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\DMDomain\\DMDomain.csproj": {
+              "projectPath": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\DMDomain\\DMDomain.csproj"
+            },
+            "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\Models\\Models.csproj": {
+              "projectPath": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\Models\\Models.csproj"
+            },
+            "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\MonsterDomain\\MonsterDomain.csproj": {
+              "projectPath": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\MonsterDomain\\MonsterDomain.csproj"
+            },
+            "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\PlayerDomain\\PlayerDomain.csproj": {
+              "projectPath": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\PlayerDomain\\PlayerDomain.csproj"
+            },
+            "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\Shared\\Shared.csproj": {
+              "projectPath": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\Shared\\Shared.csproj"
+            },
+            "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\Text_Game\\Text_Game.csproj": {
+              "projectPath": "D:\\Stuuff\\Learning Projects\\Text Learning\\Text_Game\\Text_Game\\Text_Game.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
