@@ -1,0 +1,15 @@
+D:\Stuuff\Learning Projects\Text Learning\Text_Game\DMDomain\bin\Debug\net8.0\DMDomain.deps.json
+D:\Stuuff\Learning Projects\Text Learning\Text_Game\DMDomain\bin\Debug\net8.0\DMDomain.dll
+D:\Stuuff\Learning Projects\Text Learning\Text_Game\DMDomain\bin\Debug\net8.0\DMDomain.pdb
+D:\Stuuff\Learning Projects\Text Learning\Text_Game\DMDomain\bin\Debug\net8.0\Repository.dll
+D:\Stuuff\Learning Projects\Text Learning\Text_Game\DMDomain\bin\Debug\net8.0\Repository.pdb
+D:\Stuuff\Learning Projects\Text Learning\Text_Game\DMDomain\obj\Debug\net8.0\DMDomain.csproj.AssemblyReference.cache
+D:\Stuuff\Learning Projects\Text Learning\Text_Game\DMDomain\obj\Debug\net8.0\DMDomain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Stuuff\Learning Projects\Text Learning\Text_Game\DMDomain\obj\Debug\net8.0\DMDomain.AssemblyInfoInputs.cache
+D:\Stuuff\Learning Projects\Text Learning\Text_Game\DMDomain\obj\Debug\net8.0\DMDomain.AssemblyInfo.cs
+D:\Stuuff\Learning Projects\Text Learning\Text_Game\DMDomain\obj\Debug\net8.0\DMDomain.csproj.CoreCompileInputs.cache
+D:\Stuuff\Learning Projects\Text Learning\Text_Game\DMDomain\obj\Debug\net8.0\DMDomain.csproj.Up2Date
+D:\Stuuff\Learning Projects\Text Learning\Text_Game\DMDomain\obj\Debug\net8.0\DMDomain.dll
+D:\Stuuff\Learning Projects\Text Learning\Text_Game\DMDomain\obj\Debug\net8.0\refint\DMDomain.dll
+D:\Stuuff\Learning Projects\Text Learning\Text_Game\DMDomain\obj\Debug\net8.0\DMDomain.pdb
+D:\Stuuff\Learning Projects\Text Learning\Text_Game\DMDomain\obj\Debug\net8.0\ref\DMDomain.dll
